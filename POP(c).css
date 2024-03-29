@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 235, 215);
+    
+}
+
+header{
+    padding: 0px 0;
+    color: white;
+    background-color: rgb(43, 68, 108);
+    text-align: center;
+    
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 170px;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 50px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13pt;
+    margin-left: 50px;
+}
+
+/*Sections*/
+
+#inicio h1{
+    text-align: center;
+    text-shadow: gray 10px 10px 8px;
+    color: black;
+    margin: 40px 0;
+}
+
+#inicio h3{
+    text-align: center;
+    margin: 30px 0;
+    margin-left: 8px;
+}
+
+#serviços h4 ul li{
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+#serviços{
+    text-align: center;
+}
+
+#renato{
+    text-align: center;
+}
+
+#contato{
+    text-align: center;
+}
+
+footer{
+    padding: 10px 0;
+    margin-top: 68px;
+    text-align: center;
+    background-color: rgb(43, 68, 108);
+    color: white;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+#renatorodapé{
+    margin: 2px;
+}
+
+#kaféemoji{
+    font-size: 32pt;
+    margin: 0;
+    text-shadow: 0px 0px 7px #e9e8e8;
+}
+
+#devkafeimg{
+    height: auto;
+    width: 140px;
+    margin-top: -22px;
+    margin-left: 20px;
+}
+
+.container{
+    align-items: center;
+    display: flex;
+}
+
+#logoinstagram{
+    width: 60px;
+    margin: 0px 100px 18px 33px;
+}
+
+#logogithub{
+    width: 44px;
+    margin: 0px 40px 27px -90px;
+}
+
