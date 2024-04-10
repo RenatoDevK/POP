@@ -1,13 +1,13 @@
 body{
     font-family: Arial, sans-serif;
-    margin: 100%;
-    padding: 100%;
+    margin: 0;
+    padding: 0;
     background-color: rgb(250, 235, 215);
     
 }
 
 header{
-    padding: 100%;
+    padding: 0px 0px;
     color: white;
     background-color: rgb(43, 68, 108);
     text-align: center;
@@ -67,7 +67,7 @@ nav ul li a{
 }
 
 footer{
-    padding: 100%;
+    padding: 10px 0px;
     margin-top: 68px;
     text-align: center;
     background-color: rgb(43, 68, 108);
