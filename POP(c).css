@@ -1,8 +1,9 @@
 body{
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     background-color: rgb(250, 235, 215);
+    
     
 }
 
@@ -14,24 +15,44 @@ header{
     
 }
 
-nav ul{
+nav {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+nav ul {
     list-style: none;
     padding: 0;
-    margin-left: 170px;
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
 }
 
-nav ul li{
-    display: inline;
-    margin-right: 50px;
-    
+nav ul li {
+    margin-right: 20px; /* Espaçamento entre os itens da barra de navegação */
 }
 
-nav ul li a{
+nav ul li:last-child {
+    margin-right: 0; /* Remove o espaçamento do último item */
+}
+
+nav ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
     font-size: 13pt;
-    margin-left: 50px;
+    white-space: nowrap; /* Impede a quebra de texto */
+    padding: 10px; /* Adiciona um espaçamento interno aos itens */
+}
+
+/* Estilos para telas menores */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        flex-wrap: nowrap; /* Impede que os itens quebrem para uma nova linha */
+    }
+
+    nav ul li {
+        margin: 5px; /* Espaçamento menor entre os itens */
+    }
 }
 
 /*Sections*/
@@ -64,11 +85,14 @@ nav ul li a{
 
 #contato{
     text-align: center;
+    padding-bottom: 90px;
 }
 
 footer{
     padding: 10px 0px;
-    margin-top: 68px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     background-color: rgb(43, 68, 108);
     color: white;
@@ -90,11 +114,10 @@ footer{
     height: auto;
     width: 140px;
     margin-top: -22px;
-    margin-left: 20px;
+   
 }
 
-.container{
-    align-items: center;
+.containerflex{
     display: flex;
 }
 
@@ -107,4 +130,5 @@ footer{
     width: 44px;
     margin: 0px 40px 27px -90px;
 }
+
 
